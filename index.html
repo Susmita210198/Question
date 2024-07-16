@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tata Motors Agile In-Session Review by VMT </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Tata Motors Agile In-Session Review by VMT </h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Please capture your actions for next week in the grid below </h2>
+
+<form action="/submit_response" method="post">
+    <table>
+        <tr>
+            <th>Row/Column</th>
+            <th>Low Effort</th>
+            <th>High Effort</th>
+        </tr>
+        <tr>
+            <td>Low Impact</td>
+            <td><input type="text" name="r1c1" /></td>
+            <td><input type="text" name="r1c2" /></td>
+        </tr>
+        <tr>
+            <td>High Impact</td>
+            <td><input type="text" name="r2c1" /></td>
+            <td><input type="text" name="r2c2" /></td>
+        </tr>
+    </table>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
